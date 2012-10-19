@@ -11,4 +11,12 @@ class PagesController < ApplicationController
   @title = "About"
   end
 
+	def help
+	@title = "Help"
+	end
+
+	#def each
+	#@base_title = "Ruby on Rails Tutorial Sample App"
+	#end
+
 end
